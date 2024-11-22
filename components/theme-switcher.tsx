@@ -1,6 +1,6 @@
 "use client";
 
-import { Laptop, Moon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
@@ -38,21 +38,13 @@ export const ThemeSwitcher = () => {
               size={ICON_SIZE}
               className={"text-muted-foreground"}
             />
-          ) : theme === "dark" ? (
+          ) : (
             <Moon
               key="dark"
               size={ICON_SIZE}
               className={"text-muted-foreground"}
             />
-          ) 
-          : (
-            <Laptop
-              key="system"
-              size={ICON_SIZE}
-              className={"text-muted-foreground"}
-            />
-          )
-          }
+          )}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-content" align="start">

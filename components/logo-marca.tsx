@@ -25,7 +25,6 @@ const LogoMarca = () => {
       <Image
         src={isDarkMode ? logoDark : logoLight}
         alt="Logomarca Brixton"
-        priority
         sizes="(min-width: 100%)"
         style={{ objectFit: 'contain' }}
         className="w-2/3 lg:w-full"

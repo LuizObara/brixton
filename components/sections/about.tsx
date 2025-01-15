@@ -1,6 +1,6 @@
 import Image from "next/image";
 import about from "@/assets/about.jpg";
-import AboutButtons from "./about-buttons"
+import AboutButtons from "../about-buttons"
 
 export default function About() { 
     return (

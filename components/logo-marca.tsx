@@ -21,7 +21,7 @@ const LogoMarca = () => {
   const isDarkMode = theme === "dark";
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-left">
       <Image
         src={isDarkMode ? logoDark : logoLight}
         alt="Logomarca Brixton"

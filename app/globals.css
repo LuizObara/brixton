@@ -84,7 +84,7 @@ html {
 .bg-hero {
   background-image: 
     linear-gradient(rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.4)),
-    url("../assets/hero.JPG");
+    url("../assets/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;

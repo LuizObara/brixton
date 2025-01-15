@@ -1,8 +1,8 @@
-import Hero from "@/components/hero";
-import About from "@/components/about";
-import Services from "@/components/services";
-import Allotment from "@/components/allotment";
-import Contact from "@/components/contact";
+import Hero from "@/components/sections/hero";
+import About from "@/components/sections/about";
+import Services from "@/components/sections/services";
+import Allotment from "@/components/sections/allotment";
+import Contact from "@/components/sections/contact";
 
 export default function Home() {
   return (

@@ -21,12 +21,9 @@ export default function About() {
                             className="rounded-[16px]"
                         />
                     </div>
-                    <div className="w-full md:w-5/6 mx-auto my-auto font-semibold text-justify">
-                        <p className="mb-3">
-                            Com experiência sólida no mercado, a Brixton se destaca na criação de loteamentos e empreendimentos que geram valor para clientes e comunidades. Nossa história é marcada por parcerias de sucesso com proprietários de terrenos, proporcionando soluções completas desde a análise de viabilidade até a execução dos projetos.
-                        </p>
-                        <p className="mt-3">
-                            Com mais de x empreendimentos entregues, trabalhamos com dedicação para planejar, regularizar e desenvolver cada projeto de acordo com as necessidades do mercado. Na Brixton, cada terreno é uma oportunidade de construir sonhos, transformar paisagens e criar resultados lucrativos para nossos clientes.
+                    <div className="w-full md:w-5/6 mx-auto font-medium text-justify">
+                        <p className="mb-3 text-xl">
+                            Trabalhamos com dedicação para planejar, regularizar, aprovar e desenvolver cada projeto de acordo com as necessidades do mercado e a vocação de cada área. Na Brixton, cada terreno é uma oportunidade de construir sonhos, transformar paisagens e criar resultados lucrativos para nossos clientes.
                         </p>
                     </div>
                 </div>

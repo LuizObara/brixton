@@ -1,4 +1,4 @@
-export default function Allotment() { 
+export default function Enterprises() { 
     return (
         <>
         

@@ -1,5 +1,7 @@
 import { Button } from "./ui/button";
 
+// TODO funcionalidade dos botões
+
 export default function AboutButtons () {
     return (
         <div className="md:flex md:justify-between">

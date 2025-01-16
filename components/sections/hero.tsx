@@ -7,8 +7,8 @@ export default function Hero() {
                 <h1 className="uppercase text-3xl md:text-5xl font-bold  mb-4">
                     Da Terra ao Resultado: Brixton
                 </h1>
-                <h2 className="text-xl md:text-3xl text-center font-medium mb-6">
-                    LOTEAMENTOS QUE INSPIRAM VIDAS.
+                <h2 className="text-xl uppercase md:text-3xl text-center font-medium mb-6">
+                    empreendimentos que inspiram vidas
                 </h2>
 
                 <div className="lg:flex justify-around gap-4 mb-10">

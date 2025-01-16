@@ -1,8 +1,5 @@
 'use client'
 
-import { useState, useEffect } from "react";
-import { useTheme } from "next-themes";
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,22 +8,16 @@ import logoDark from '@/assets/Brixton Logotipo-01 dark.png';
 
 import logoMarca from '@/assets/Brixton Logomarca-01.png';
 
-export default function Logo() {
-    const [mounted, setMounted] = useState(false);
-    const { theme } = useTheme();
+type LogoProps = {
+    type?: "default" | "dark";
+}
 
-    useEffect(() => {
-        setMounted(true); 
-    }, []);
-
-    if (!mounted) {
-        return null; 
-    }
-
-    const isDarkMode = theme === "dark";
+export default function Logo({ type = "default" }: LogoProps) {
+    
+    const isDarkMode = type === "dark";
 
     return (
-        <Link href="#inicio" className='relative w-40'>
+        <Link href="/#inicio" className='relative w-40'>
             <Image
                 src={isDarkMode ? logoDark : logoLight}
                 alt="Logo Brixton"

@@ -2,10 +2,10 @@ import { Montserrat } from 'next/font/google';
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { ThemeProvider } from "@/components/theme-provider";
-
 import Header from "@/components/header";
+import Footer from '@/components/footer';
 
+import WhatsappButton from '@/components/whatsapp-button';
 import { Toaster } from "@/components/ui/sonner";
 
 const montserrat = Montserrat({
@@ -28,24 +28,18 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body className={montserrat.className}>
-          <ThemeProvider
-              attribute="class"
-              defaultTheme="light"
-              enableSystem
-              disableTransitionOnChange
-          >
-              <main className="min-h-screen flex flex-col w-full">
-                  <Header />
-                  
-                  <div className="flex-1 w-full flex flex-col items-center overflow-y-auto overflow-x-hidden">
-                      <div className="flex flex-col w-full ">
-                          {children}
-                      </div>
-                  </div>
-                  
-                  <Toaster />
-              </main>
-          </ThemeProvider>
+        <main className="min-h-screen flex flex-col w-full">
+          <Header />
+          
+          <div className="flex-1 w-full flex flex-col items-center overflow-y-auto overflow-x-hidden">
+            <div className="flex flex-col w-full ">
+              {children}
+            </div>
+          </div>
+          <WhatsappButton/>
+          <Toaster/>
+          <Footer/>
+        </main>
       </body>
   </html>
   );

@@ -16,7 +16,7 @@ export default function NavigationBar() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <Link href="#inicio" legacyBehavior passHref>
+                    <Link href="/#inicio" legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             Início
                         </NavigationMenuLink>
@@ -24,15 +24,15 @@ export default function NavigationBar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <Link href="#sobre-nos" legacyBehavior passHref>
+                    <Link href="/#empreendimentos" legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                            Sobre nós
+                            Empreendimentos
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <Link href="#servicos" legacyBehavior passHref>
+                    <Link href="/#servicos" legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             Serviços
                         </NavigationMenuLink>
@@ -40,15 +40,15 @@ export default function NavigationBar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <Link href="#loteamentos" legacyBehavior passHref>
+                    <Link href="/#sobre-nos" legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                            Loteamentos
+                            Sobre nós
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <Link href="#contato" legacyBehavior passHref>
+                    <Link href="/#contato" legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             Contato
                         </NavigationMenuLink>

@@ -11,7 +11,7 @@ const HeroButton = ({ type = "default" }: ContactButtonProps) => {
     return (
         <div className="w-full flex justify-center mb-3">
           <Link
-            href={isAllotment ? "#loteamentos" : "#sobre-nos"}
+            href={isAllotment ? "#empreendimentos" : "#sobre-nos"}
             className={`w-3/4 rounded-full font-bold ${
               isAllotment ? "bg-[#0c776c] text-white" : ""
             }`}

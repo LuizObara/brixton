@@ -34,10 +34,10 @@ export default function RootLayout({
           <div className="flex-1 w-full flex flex-col items-center overflow-y-auto overflow-x-hidden">
             <div className="flex flex-col w-full ">
               {children}
+              <WhatsappButton/>
             </div>
+            <Toaster/>
           </div>
-          <WhatsappButton/>
-          <Toaster/>
           <Footer/>
         </main>
       </body>

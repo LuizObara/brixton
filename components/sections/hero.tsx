@@ -13,7 +13,7 @@ export default function Hero() {
 
                 <div className="lg:flex justify-around gap-4 mb-10">
                     <HeroButton/>
-                    <HeroButton type="Allotment" />
+                    <HeroButton type="Allotment"/>
                 </div>
             </div>
         </div>

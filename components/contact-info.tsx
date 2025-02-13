@@ -15,8 +15,8 @@ export default function ContactInfo () {
             <div className="flex justify-left text-white items-center">
                 <h4 className='mr-3 text-lg font-semibold'>Endereço:</h4>
 
-                <div className="w-full text-justify">
-                    <h5>TRAVESSA MOACIR TUDELA FERNANDES, 297, IPANEMA DO MEIO, SOROCABA, SP CEP 18.035-257</h5>
+                <div className="w-full uppercase">
+                    <h5>Rua Antonio Perez Hernandez, nº 125, box 50, em Sorocaba/SP, CEP 18048-115</h5>
                 </div>
             </div>
             

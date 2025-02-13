@@ -29,8 +29,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning={true}>
       <body className={montserrat.className}>
         <main className="min-h-screen flex flex-col w-full">
-          <Header />
-          
+          <Header />          
           <div className="flex-1 w-full flex flex-col items-center overflow-y-auto overflow-x-hidden">
             <div className="flex flex-col w-full ">
               {children}

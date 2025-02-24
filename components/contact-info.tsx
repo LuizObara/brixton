@@ -22,7 +22,7 @@ export default function ContactInfo () {
             
             <div className="flex justify-left text-white items-center">
                 <h4 className='mr-3 text-lg font-semibold'>Contato:</h4>
-                <h5>(015) 98153-7823 </h5>
+                <h5>(011) 94186-4769</h5>
             </div>
         </div>
     )

@@ -1,4 +1,6 @@
-import EmailCopy from '@/components/email-copy'
+import NavigationButtons from "../navigation-buttons";
+import EmailCopy from '@/components/email-copy';
+
 export default function Contact() { 
     return (
         <div className="p-3 ">
@@ -24,10 +26,14 @@ export default function Contact() {
                     <div className="p-3 rounded-lg bg-[#08263A]">
                         <div className="my-3 w-full text-center text-white uppercase text-xl font-bold">fale conosco!</div>
                         <div className="md:w-[500px] md:h-[500px] flex flex-col">
-                            <p className="text-white text-justify p-3 text-md font-semibold">
-                                Estamos aqui para você! Solicite um orçamento, agende uma conversa com nossa equipe de produtos ou compartilhe suas opiniões e críticas construtivas. Sua experiência é importante para nós, e estamos prontos para esclarecer qualquer dúvida. Entre em contato e descubra como podemos ajudar a transformar suas ideias em realidade.
+                            <p className="text-white p-3 text-md font-semibold uppercase text-center">
+                                A parceria é um bom caminho
                             </p>
-                            <div className="mt-auto">
+                            <div className="my-auto ">
+                                <h4 className='text-white text-center uppercase my-5'>Conheça também:</h4>
+                                <NavigationButtons/> 
+                            </div>
+                            <div className="mt-auto ">
                                 <EmailCopy/>
                             </div>
                         </div>
